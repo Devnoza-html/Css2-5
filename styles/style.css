@@ -7,6 +7,10 @@ html {
     font-family: inter;
 }
 
+body {
+    height: 3800px;
+}
+
 #next {
     margin-right: 650px;
     margin-top: 10px;
@@ -41,6 +45,7 @@ html {
     margin: 0 auto;
     margin-top: 120px;
     padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 h1 {
@@ -84,7 +89,7 @@ h1 {
     width: 93px;
     margin: 0 auto;
     color: #6941C6;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     display: inline;
     border: 1px solid #E9D7FE;
@@ -159,6 +164,8 @@ h1 {
     margin: 0 auto;
     border-radius: 16px;
     padding-top: 30px;
+    padding-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 #faqHeader {
@@ -179,24 +186,169 @@ h1 {
     margin-right: 24px;
 }
 
-#qOne {
+#qOne, #qTwo, #qThree, #qFour, #qFive, #qSix {
     width: 770px;
     margin: 0 auto;
     margin-top: 32px;
     background-color: #E4E4E4;
     padding: 32px;
     border-radius: 16px;
+    margin-bottom: 16px;
 }
 
-#free {
+#free, #plan {
     display: inline-block;
     vertical-align: top;
     font-size: 22px;
     font-weight: 400;
 }
 
-#longOne {
+#longOne, #longTwo {
     font-size: 20px;
     color: #535862;
-    margin-top: 10px    ;
+    margin-top: 10px;
+}
+
+#qTwo {
+    background-color: #FFE5E5;
+    border: 2px solid #FF2323;
+}
+
+#qThree {
+    background-color: #E9D7FF;
+}
+
+#qFour {
+    background-color: #F7F4FF;
+}
+
+#qFive {
+   background-color: #DCE6FF;
+   border: 4px solid #326DFF;
+}
+
+#qSix {
+    background-color: #FFD5E7;
+}
+
+#userReviews {
+    width: 1400px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding-top: 32px;
+}
+
+#ourReviews {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#hear {
+    text-align: center;
+    margin-bottom: 64px;
+    color: #535862;
+    font-size: 24px;
+}
+
+#allReviews {
+    width: 100%;
+    padding: 0px 32px 32px 32px;
+}
+
+#siennaHew, #caitlyn, #olly, #riley {
+    display: inline-block;
+    width: 580px;
+    padding: 32px;
+    border: 1px solid #E9EAEB;
+    border-radius: 12px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+
+#siennaHeader {
+    font-size: 22px;
+    margin-bottom: 82px;
+}
+
+#blackGirl, #blonde, #fancy, #blackDude {
+    margin-right: 12px;
+}
+
+#nameOne {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#tick {
+    vertical-align: top;
+    padding: 4px;
+    margin-left: 4px;
+}
+
+#position {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -151px;
+    color: #535862;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#catHeader, #ollyHeader {
+    height: auto;
+    margin-bottom: 65px;
+}
+
+#rileyHeader {
+    height: auto;
+    margin-bottom: 87px;
+}
+
+#positionOne {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -138px;
+    color: #535862;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+#positionTwo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -162px;
+    color: #535862;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+#positionThree {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -155px;
+    color: #535862;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+#logoOne {
+    margin-left: 250px;
+}
+
+#logoTwo {
+    margin-left: 240px;
+}
+
+#logoThree {
+    margin-left: 200px;
 }
