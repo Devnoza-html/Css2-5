@@ -11,17 +11,33 @@ body {
     height: 3800px;
 }
 
-#next {
-    margin-right: 650px;
-    margin-top: 10px;
-    margin-left: 10px;
+#headerContainer {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#headerContainerLogo, #headerContainerList, #headerContainerButton {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#headerContainerLogo {
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+}
+
+#headerContainerButton {
+    max-width: 800px;
+    width: 100%;
+    text-align: right;
 }
 
 #pricing, #faq, #reviews {
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 20px;
     color: #323232;
     font-family: inter;
@@ -29,9 +45,7 @@ body {
 }
 
 #contactUs {
-    margin-left: 700px;
-    vertical-align: top;
-    margin-top: 25px;
+    vertical-align: middle;
     padding: 10px 18px;
     border-radius: 8px;
     border: 1px solid #6941C6;
@@ -41,7 +55,8 @@ body {
 
 #mainDiv {
     background-color: #F1E8FF;
-    width: 1530px;
+    max-width: 1530px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 120px;
     padding-top: 96px;
@@ -68,11 +83,11 @@ h1 {
     padding-bottom: 64px;
     background-color: #F1E8FF;
     margin-bottom: 30px;
+    margin-left: 128px;
 }
 
 #cardOne, #cardTwo, #cardThree {
     display: inline-block;
-    margin-left: 128px;
     margin-top: 32px;
     padding: 40px 16px;
     width: 373px;
@@ -81,14 +96,15 @@ h1 {
     height: 557px;
 }
 
-#cardTwo, #cardThree {
-    margin-left: 32px;
+#cardTwo {
+    margin:0 32px;
 }
 
 #basicPlan, #businessPlan, #enterprisePlan {
     width: 93px;
-    margin: 0 auto;
+    margin-left: 130px;
     color: #6941C6;
+    background-color: #F9F5FF;
     font-weight: 700;
     font-size: 14px;
     display: inline;
@@ -96,7 +112,6 @@ h1 {
     border-radius: 16px;
     padding: 6px 6px;
     margin-bottom: 25px;
-    margin-left: 140px;
 }
 
 #tendollars, #twentydollars, #fortydollars {
@@ -104,14 +119,14 @@ h1 {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
-#popular, #users {
+#popular, #users, #teams {
     text-align: center;
     color: #535862;
     font-weight: 400;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 #getStartedOne, #getStartedTwo, #getStartedThree {
@@ -128,7 +143,7 @@ h1 {
     margin-bottom: 12px;
 }
 
-#chatOne, #chatTwo {
+#chatOne, #chatTwo, #chatThree {
     width: 309px;
     padding: 12px 18px;
     display: block;
@@ -141,19 +156,19 @@ h1 {
     margin-bottom: 65px;
 }
 
-#access {
+#access, #accessOne, #accessTwo, #accessThree, #accessFour, #accessFive, #accessSix, #accessSeven, #accessEight, #accessNine, #accessTen, #accessEleven, #accessTwelve, #accessThirteen, #accessFourteen, #accessFifteen {
     display: inline-block;
     vertical-align: top;
     margin-top: 3px;
 }
 
-#check {
+#check, #checkOneOne, #checkOneTwo, #checkOneThree, #checkOneFour, #checkTwoOne, #checkTwoTwo, #checkTwoThree, #checkTwoFour, #checkTwoFive, #checkThreeOne, #checkThreeTwo, #checkThreeThree, #checkThreeFour, #checkThreeFive {
     margin-left: 16px;
     margin-right: 12px;
     margin-bottom: 16px;
 }
 
-#checkOne, #checkTwo {
+#checkOne, #checkTwo, #checkThree {
     padding-top: 32px;
     border-top: 1px solid #E9EAEB;
 }
@@ -182,7 +197,7 @@ h1 {
     color: #535862;
 }
 
-#arrow {
+#arrow, #arrowTwo, #arrowThree, #arrowFour, #arrowFive {
     margin-right: 24px;
 }
 
@@ -196,14 +211,14 @@ h1 {
     margin-bottom: 16px;
 }
 
-#free, #plan {
+#free, #plan, #planTwo, #planThree, #planFour, #planFive {
     display: inline-block;
     vertical-align: top;
     font-size: 22px;
     font-weight: 400;
 }
 
-#longOne, #longTwo {
+#longOne, #longTwo, #longThree, #longFour, #longFive {
     font-size: 20px;
     color: #535862;
     margin-top: 10px;
@@ -277,14 +292,14 @@ h1 {
     margin-right: 12px;
 }
 
-#nameOne {
+#nameOne, #nameTwo, #nameThree, #nameFour {
     display: inline-block;
     vertical-align: top;
     font-size: 18px;
     font-weight: 400;
 }
 
-#tick {
+#tick, #tickTwo, #tickThree, #tickFour {
     vertical-align: top;
     padding: 4px;
     margin-left: 4px;
